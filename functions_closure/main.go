@@ -16,11 +16,13 @@ func main() {
 	for i := 1; i < 10; i++ {
 		fmt.Printf("%d ", f())
 	}
+
 	fmt.Printf("\n")
 	g := do()
+
 	for i := 1; i < 10; i++ {
 		fmt.Printf("%d ", g())
 	}
-	fmt.Println("")
 
+	fmt.Println("")
 }
